@@ -10,7 +10,7 @@ const Header = () => {
 
       <Nav className="flex-row" navbar>
         <Link href="/products" className="nav-link me-2">
-          Produtos
+          Produtos |
         </Link>
 
         <Link href="/cart" className="nav-link">
