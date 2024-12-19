@@ -4,7 +4,14 @@ const nextConfig: NextConfig = {
   /* config options here */
   reactStrictMode: true,
   images: {
-    domains: ["store.storeimages.cnd-aple.com"],
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "store.storeimages.cdn-apple.com",
+        port: "",
+        pathname: "/**",
+      },
+    ],
   },
 };
 

@@ -20,8 +20,8 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
           <Image
             className="card-img-top"
             src={imageUrl}
-            alt="Product"
-            height={500}
+            alt={product.name}
+            height={300}
             width={600}
           />
         </Link>
